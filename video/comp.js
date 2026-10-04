@@ -222,7 +222,7 @@ scene(0, 3.02, function () {
 });
 
 // ---------- 2. PRODUCT ASSEMBLES ----------
-scene(2.98, 6.02, function () {
+scene(3.0, 6.02, function () {
   const lay = this.layer = el('div', 'layer', world, { background: '#EFEFEF' });
   // giant marquee type
   const mfs = P ? 300 : 260;
@@ -334,7 +334,7 @@ scene(2.98, 6.02, function () {
 
 // ---------- 3. FEATURE 1 — 23 COLORWAYS ----------
 const F1_SEQ = [[6.5, 6], [7.0, 7], [7.5, 1], [7.75, 12], [7.875, 17], [8.0, 20], [8.125, 13], [8.25, 19]];
-scene(5.9, 8.62, function () {
+scene(6.0, 8.62, function () {
   const lay = this.layer = el('div', 'layer', world, { background: '#EFEFEF' });
   this.floodLay = el('div', 'layer', lay);
   // layout
@@ -373,7 +373,7 @@ scene(5.9, 8.62, function () {
   let act = 0, actT = 0;
   for (const [tt, i] of F1_SEQ) if (t >= tt) { act = i; actT = tt; }
   const enter = E.outExpo(seg(t, 6.0, 6.45));
-  const exitU = E.inExpo(seg(t, 8.36, 8.6));
+  const exitU = E.inExpo(seg(t, 8.34, 8.56));
   const dy = -exitU * H * 1.15;
   const sh = shake(t);
   // floods
@@ -443,8 +443,9 @@ scene(5.9, 8.62, function () {
 });
 
 // ---------- 4. FEATURE 2 — FIND YOUR FIT ----------
-scene(8.4, 11.08, function () {
-  const lay = this.layer = el('div', 'layer', world, { background: '#fff' });
+scene(8.45, 11.08, function () {
+  const lay = this.layer = el('div', 'layer', world);
+  this.panel = el('div', 'layer', lay, { background: '#fff' });
   this.xs = piece('size_xs', lay); this.sz = piece('size_s', lay);
   if (P) this.ps = { x: W / 2, y: 690, s: 2.5 };
   else if (SQ) this.ps = { x: W / 2, y: 360, s: 2.15 };
@@ -485,6 +486,7 @@ scene(8.4, 11.08, function () {
   const ex = E.inExpo(seg(t, 10.82, 11.05));
   const dy = (1 - ent) * H * 1.1, dx = ex * W * 1.2;
   const sh = shake(t);
+  this.panel.style.transform = `translateY(${dy}px)`;
   const clicked = t >= 9.0;
   const press = (t >= 8.98 && t < 9.12) ? 0.97 : 1;
   const ps = this.ps;
@@ -520,8 +522,9 @@ scene(8.4, 11.08, function () {
 
 // ---------- 5. FEATURE 3 — ONE TAP. IN THE CART. ----------
 const DRAWER_STRIPS = [[0, 62], [62, 160], [160, 300], [300, 440], [440, 520], [520, 600], [600, 672], [672, 742], [742, 828]];
-scene(10.85, 13.58, function () {
-  const lay = this.layer = el('div', 'layer', world, { background: '#EFEFEF' });
+scene(10.95, 13.58, function () {
+  const lay = this.layer = el('div', 'layer', world);
+  this.panel = el('div', 'layer', lay, { background: '#EFEFEF' });
   this.atc = piece('atc', lay); this.atc.style.background = '#fff';
   this.pay = piece('payments', lay); this.pay.style.background = '#fff';
   if (P) this.pa = { x: W / 2, y: 900, s: 2.55 };
@@ -560,6 +563,7 @@ scene(10.85, 13.58, function () {
 }, function (t) {
   const ent = E.outExpo(seg(t, 10.98, 11.35));
   const sh = shake(t);
+  this.panel.style.transform = `translateX(${(1 - ent) * W * 1.05}px)`;
   const exit = E.inExpo(seg(t, 13.28, 13.52));
   const pa = this.pa;
   const press = (t >= 11.48 && t < 11.62) ? 0.94 : 1;
@@ -600,7 +604,7 @@ scene(10.85, 13.58, function () {
 });
 
 // ---------- 6. METRIC — 1,515 REVIEWS ----------
-scene(13.45, 16.62, function () {
+scene(13.5, 16.62, function () {
   const lay = this.layer = el('div', 'layer', world, { background: '#000' });
   // conveyor of real colourway photos
   this.conv = [];
@@ -658,7 +662,7 @@ scene(13.45, 16.62, function () {
 
 // ---------- 7. LOGO + CTA ----------
 const STROBE = [6, 17, 12, 1];
-scene(16.45, 20.0, function () {
+scene(16.5, 20.0, function () {
   const lay = this.layer = el('div', 'layer', world, { background: '#fff' });
   this.strobe = STROBE.map(i => piece('cw_img_' + String(i).padStart(2, '0'), lay));
   this.strobeS = Math.max(W / 390, H / 488);
@@ -694,7 +698,7 @@ scene(16.45, 20.0, function () {
   const pre = t < 17.0;
   const logo = this.logo;
   logo.style.color = pre ? '#fff' : '#000';
-  logo.style.mixBlendMode = pre ? 'difference' : 'normal';
+  logo.firstElementChild.style.filter = pre ? 'drop-shadow(0 10px 40px rgba(0,0,0,0.45))' : 'none';
   const fin = t >= 19.5 ? 1 + 0.04 * Math.exp(-(t - 19.5) * 10) : 1;
   const ls = pre ? lerp(1.3, 1.18, seg(t, 16.5, 17.0)) : lerp(1.6, 1, slam) * fin;
   place(logo, { x: W / 2 + sh.x, y: this.ly + sh.y, s: ls, clip: pre ? null : [0, 0, 0, 0], blur: pre ? 0 : (1 - slam) * 12 });
