@@ -1,0 +1,734 @@
+{
+ "home": {
+  "header": {
+   "x": 0,
+   "y": 62,
+   "w": 390,
+   "h": 46
+  },
+  "announce": {
+   "x": 0,
+   "y": 0,
+   "w": 390,
+   "h": 61.59375
+  }
+ },
+ "collectionCards": [
+  {
+   "x": 20,
+   "y": 168.390625,
+   "w": 171,
+   "h": 349.734375,
+   "t": "Mystery Gym Bag Women\nAngebot\n84,90 €\ninkl. MwSt., zzgl. Ver"
+  },
+  {
+   "x": 199,
+   "y": 168.390625,
+   "w": 171,
+   "h": 349.734375,
+   "t": "Softline Nylon Wide Leg Pants\nAngebot\n68,90 €\ninkl. MwSt., z"
+  },
+  {
+   "x": 20,
+   "y": 550.125,
+   "w": 171,
+   "h": 330.234375,
+   "t": "Softline Nylon Shorts\nAngebot\n54,90 €\ninkl. MwSt., zzgl. Ver"
+  },
+  {
+   "x": 199,
+   "y": 550.125,
+   "w": 171,
+   "h": 330.234375,
+   "t": "Softline Nylon Leggings\nAngebot\n64,90 €\ninkl. MwSt., zzgl. V"
+  },
+  {
+   "x": 20,
+   "y": 912.359375,
+   "w": 171,
+   "h": 330.234375,
+   "t": "Ausverkauft\nSoftline Nylon Jacket\nAngebot\n64,90 €\ninkl. MwSt"
+  },
+  {
+   "x": 199,
+   "y": 912.359375,
+   "w": 171,
+   "h": 330.234375,
+   "t": "Scrunch\nScrunch Pro Leggings\nAngebot\n54,90 €\ninkl. MwSt., zz"
+  },
+  {
+   "x": 20,
+   "y": 1274.59375,
+   "w": 171,
+   "h": 330.234375,
+   "t": "Scrunch\nScrunch Pro Shorts\nAngebot\n44,90 €\ninkl. MwSt., zzgl"
+  },
+  {
+   "x": 199,
+   "y": 1274.59375,
+   "w": 171,
+   "h": 330.234375,
+   "t": "Scrunch\nCore Contour Leggings\nAngebot\n58,90 €\ninkl. MwSt., z"
+  },
+  {
+   "x": 20,
+   "y": 1636.828125,
+   "w": 171,
+   "h": 330.234375,
+   "t": "Scrunch\nCore Contour Shorts\nAngebot\n48,90 €\ninkl. MwSt., zzg"
+  },
+  {
+   "x": 199,
+   "y": 1636.828125,
+   "w": 171,
+   "h": 330.234375,
+   "t": "Aura Nylon Rectangle Bra\nAngebot\n44,90 €\ninkl. MwSt., zzgl. "
+  }
+ ],
+ "product": {
+  "header": {
+   "x": 0,
+   "y": 62,
+   "w": 390,
+   "h": 46
+  },
+  "title": {
+   "x": 20,
+   "y": 711.203125,
+   "w": 350,
+   "h": 26.390625
+  },
+  "price": {
+   "x": 20,
+   "y": 838.984375,
+   "w": 350,
+   "h": 27.1875
+  },
+  "rating": {
+   "x": 20,
+   "y": 761.59375,
+   "w": 350,
+   "h": 25
+  },
+  "gallery": {
+   "x": 20,
+   "y": 107.59375,
+   "w": 350,
+   "h": 583.609375
+  },
+  "swatches": {
+   "x": 20,
+   "y": 935.96875,
+   "w": 350,
+   "h": 360.796875
+  },
+  "atc": {
+   "x": 20,
+   "y": 1716.234375,
+   "w": 284,
+   "h": 52.796875
+  },
+  "guide": {
+   "x": 175,
+   "y": 2587.078125,
+   "w": 164.6875,
+   "h": 24
+  },
+  "fieldsets": [
+   {
+    "x": 20,
+    "y": 935.96875,
+    "w": 350,
+    "h": 360.796875,
+    "t": "Farbe:\naura blue/dots\naura blue/dots\ntru"
+   },
+   {
+    "x": 20,
+    "y": 1410.359375,
+    "w": 350,
+    "h": 70.796875,
+    "t": "Größe:\nXS\nGrößentabelle\nXS\nS\nM\nL\nXL"
+   },
+   {
+    "x": 20,
+    "y": 13990.375,
+    "w": 153,
+    "h": 19,
+    "t": "dusty blue\ntrue black\nwarm stone\ncoal gr"
+   },
+   {
+    "x": 320.59375,
+    "y": 13980.96875,
+    "w": 153,
+    "h": 19,
+    "t": "espresso\ntrue black\naura blue/dots\ntaupe"
+   },
+   {
+    "x": 621.1875,
+    "y": 13990.375,
+    "w": 153,
+    "h": 19,
+    "t": "purple\nazure\norange\nlemon\nsoft rose\ntaup"
+   },
+   {
+    "x": 921.78125,
+    "y": 13981.015625,
+    "w": 153,
+    "h": 19,
+    "t": "espresso\ntrue black\nblushed rose\ndark gr"
+   },
+   {
+    "x": 1222.375,
+    "y": 13981.015625,
+    "w": 128,
+    "h": 19,
+    "t": "washed espresso\nwashed blushed rose\nwash"
+   },
+   {
+    "x": 1522.96875,
+    "y": 13981.015625,
+    "w": 153,
+    "h": 19,
+    "t": "white\nsoft lilac\ntaupe\nsoft blue\nheather"
+   },
+   {
+    "x": 1823.5625,
+    "y": 13981.015625,
+    "w": 128,
+    "h": 19,
+    "t": "washed espresso\nwashed black\nwashed dark"
+   },
+   {
+    "x": 2124.15625,
+    "y": 13981.015625,
+    "w": 153,
+    "h": 19,
+    "t": "white\nblushed rose\ntrue black\ndark greig"
+   },
+   {
+    "x": 2424.75,
+    "y": 13990.421875,
+    "w": 153,
+    "h": 19,
+    "t": "summer peach\nsoft lilac\nlemon\njelly mint"
+   },
+   {
+    "x": 2725.34375,
+    "y": 13981.015625,
+    "w": 153,
+    "h": 19,
+    "t": "coal grey\ntrue black\nwhite\nfire red\nstra"
+   }
+  ],
+  "colorSwatches": [
+   {
+    "x": 20,
+    "y": 964.765625,
+    "w": 60,
+    "h": 60,
+    "t": "aura blue/dots"
+   },
+   {
+    "x": 88,
+    "y": 964.765625,
+    "w": 60,
+    "h": 60,
+    "t": "true black"
+   },
+   {
+    "x": 156,
+    "y": 964.765625,
+    "w": 60,
+    "h": 60,
+    "t": "taupe/dots"
+   },
+   {
+    "x": 224,
+    "y": 964.765625,
+    "w": 60,
+    "h": 60,
+    "t": "espresso/dots"
+   },
+   {
+    "x": 292,
+    "y": 964.765625,
+    "w": 60,
+    "h": 60,
+    "t": "espresso"
+   },
+   {
+    "x": 20,
+    "y": 1032.765625,
+    "w": 60,
+    "h": 60,
+    "t": "midnight blue"
+   },
+   {
+    "x": 88,
+    "y": 1032.765625,
+    "w": 60,
+    "h": 60,
+    "t": "raspberry"
+   },
+   {
+    "x": 156,
+    "y": 1032.765625,
+    "w": 60,
+    "h": 60,
+    "t": "jelly mint"
+   },
+   {
+    "x": 224,
+    "y": 1032.765625,
+    "w": 60,
+    "h": 60,
+    "t": "coal grey"
+   },
+   {
+    "x": 292,
+    "y": 1032.765625,
+    "w": 60,
+    "h": 60,
+    "t": "soft lilac"
+   },
+   {
+    "x": 20,
+    "y": 1100.765625,
+    "w": 60,
+    "h": 60,
+    "t": "soft blue"
+   },
+   {
+    "x": 88,
+    "y": 1100.765625,
+    "w": 60,
+    "h": 60,
+    "t": "eggplant"
+   },
+   {
+    "x": 156,
+    "y": 1100.765625,
+    "w": 60,
+    "h": 60,
+    "t": "summer peach"
+   },
+   {
+    "x": 224,
+    "y": 1100.765625,
+    "w": 60,
+    "h": 60,
+    "t": "dark plum"
+   },
+   {
+    "x": 292,
+    "y": 1100.765625,
+    "w": 60,
+    "h": 60,
+    "t": "heather grey"
+   },
+   {
+    "x": 20,
+    "y": 1168.765625,
+    "w": 60,
+    "h": 60,
+    "t": "warm stone"
+   },
+   {
+    "x": 88,
+    "y": 1168.765625,
+    "w": 60,
+    "h": 60,
+    "t": "moonstone"
+   },
+   {
+    "x": 156,
+    "y": 1168.765625,
+    "w": 60,
+    "h": 60,
+    "t": "aqua blue"
+   },
+   {
+    "x": 224,
+    "y": 1168.765625,
+    "w": 60,
+    "h": 60,
+    "t": "dark greige"
+   },
+   {
+    "x": 292,
+    "y": 1168.765625,
+    "w": 60,
+    "h": 60,
+    "t": "royal green"
+   },
+   {
+    "x": 20,
+    "y": 1236.765625,
+    "w": 60,
+    "h": 60,
+    "t": "royal blue"
+   },
+   {
+    "x": 88,
+    "y": 1236.765625,
+    "w": 60,
+    "h": 60,
+    "t": "dark blue"
+   },
+   {
+    "x": 156,
+    "y": 1236.765625,
+    "w": 60,
+    "h": 60,
+    "t": "chocolate"
+   },
+   {
+    "x": 20,
+    "y": 1439.15625,
+    "w": 58.53125,
+    "h": 42,
+    "t": "XS"
+   },
+   {
+    "x": 86.53125,
+    "y": 1439.15625,
+    "w": 50.265625,
+    "h": 42,
+    "t": "S"
+   },
+   {
+    "x": 144.796875,
+    "y": 1439.15625,
+    "w": 53.265625,
+    "h": 42,
+    "t": "M"
+   },
+   {
+    "x": 206.0625,
+    "y": 1439.15625,
+    "w": 49.265625,
+    "h": 42,
+    "t": "L"
+   },
+   {
+    "x": 263.328125,
+    "y": 1439.15625,
+    "w": 57.53125,
+    "h": 42,
+    "t": "XL"
+   },
+   {
+    "x": 22,
+    "y": 13992.375,
+    "w": 14,
+    "h": 14,
+    "t": "dusty blue"
+   },
+   {
+    "x": 44,
+    "y": 13992.375,
+    "w": 14,
+    "h": 14,
+    "t": "true black"
+   },
+   {
+    "x": 66,
+    "y": 13992.375,
+    "w": 14,
+    "h": 14,
+    "t": "warm stone"
+   },
+   {
+    "x": 88,
+    "y": 13992.375,
+    "w": 14,
+    "h": 14,
+    "t": "coal grey"
+   },
+   {
+    "x": 110,
+    "y": 13992.375,
+    "w": 14,
+    "h": 14,
+    "t": "dark greige"
+   },
+   {
+    "x": 132,
+    "y": 13992.375,
+    "w": 14,
+    "h": 14,
+    "t": "raspberry"
+   },
+   {
+    "x": 322.59375,
+    "y": 13982.96875,
+    "w": 14,
+    "h": 14,
+    "t": "espresso"
+   },
+   {
+    "x": 344.59375,
+    "y": 13982.96875,
+    "w": 14,
+    "h": 14,
+    "t": "true black"
+   },
+   {
+    "x": 366.59375,
+    "y": 13982.96875,
+    "w": 14,
+    "h": 14,
+    "t": "aura blue/dots"
+   },
+   {
+    "x": 388.59375,
+    "y": 13982.96875,
+    "w": 14,
+    "h": 14,
+    "t": "taupe/dots"
+   },
+   {
+    "x": 410.59375,
+    "y": 13982.96875,
+    "w": 14,
+    "h": 14,
+    "t": "espresso/dots"
+   },
+   {
+    "x": 432.59375,
+    "y": 13982.96875,
+    "w": 14,
+    "h": 14,
+    "t": "dark blue"
+   }
+  ]
+ },
+ "actions": [
+  {
+   "type": "color",
+   "color": "raspberry",
+   "box": {
+    "x": 88,
+    "y": 1032.765625,
+    "w": 60,
+    "h": 60
+   },
+   "url": "https://oace.de/products/scrunch-pro-leggings?variant=55002189889801"
+  },
+  {
+   "type": "color",
+   "color": "jelly mint",
+   "box": {
+    "x": 156,
+    "y": 1032.765625,
+    "w": 60,
+    "h": 60
+   },
+   "url": "https://oace.de/products/scrunch-pro-leggings?variant=56910229635337"
+  },
+  {
+   "type": "color",
+   "color": "true black",
+   "box": {
+    "x": 88,
+    "y": 964.765625,
+    "w": 60,
+    "h": 60
+   },
+   "url": "https://oace.de/products/scrunch-pro-leggings?variant=48127077286153"
+  },
+  {
+   "type": "size",
+   "box": {
+    "x": 86.53125,
+    "y": 1439.046875,
+    "w": 50.265625,
+    "h": 42
+   }
+  },
+  {
+   "type": "atc",
+   "viewportBox": {
+    "x": 20,
+    "y": 209.125,
+    "width": 284,
+    "height": 52.796875
+   },
+   "scrollY": 1507
+  }
+ ],
+ "pdpBoxes": {
+  "gallery": {
+   "x": 20,
+   "y": 107.59375,
+   "w": 350,
+   "h": 583.5
+  },
+  "info": {
+   "x": 20,
+   "y": 711.09375,
+   "w": 350,
+   "h": 26.390625
+  },
+  "sizeFieldset": {
+   "x": 20,
+   "y": 1410.25,
+   "w": 350,
+   "h": 70.796875
+  },
+  "colorFieldset": {
+   "x": 20,
+   "y": 935.859375,
+   "w": 350,
+   "h": 360.796875
+  },
+  "qty": {
+   "x": 20,
+   "y": 1645.328125,
+   "w": 126,
+   "h": 42
+  }
+ },
+ "cartText": "Warenkorb\n\n1\nSchließen\nFüge deiner Bestellung Artikel im Wert von 65,10 € hinzu und erhalte kostenlosen Versand!\nScrunch Pro Leggings\nAngebot\n54,90 €\n\ntrue black / S\n\nEntfernen\nHero Thong (3er Bundle)\nAngebot\n29,90 €\n+ Hinzufügen\nIcon Thong (3er Bundle)\nAngebot\n29,90 €\n+ Hinzufügen\nMuse Thong (3er Bundle)\nAngebot\n29,90 €\n+ Hinzufügen\nPulse Compression Socks\nAngebot\n24,90 €\n+ Hinzufügen\nIconic Logo Socks\nAngebot\n8,90 €\n+ Hinzufügen\nOACE Socks\nAngebot\n8,90 €\n+ Hinzufügen\nOACE Bottle (1 L)\nAngebot\n34,90 €\n+ Hinzufügen\nBack Logo Socks\nAngebot\n8,90 €\n+ Hinzufügen\nOACE Towel\nAngebot\n29,90 €\n+ Hinzufügen\nOACE Signature Socks\nAngebot\n8,90 €\n+ Hinzufügen\nRabattcode hinzufügen (Gutscheine erst im Checkout)\nZwischensumme :\n\ninkl. MwSt., zzgl. Versand\n\n54,90 €\nZur Kasse",
+ "guideText": "OACE Leggings Guide\nAlle\nSeamless\nNylon\nScrunch Pro\nTrust\nCore Contour\nAura Nylon\nAura Nylon Flared\nSoftline Leggings\nSoftline Wide Leg Pants\nAppearance Contour\nPulse Nylon\nRevolution Pro\nToned V-Shape\nAlive Batik\nVideo abspielen\nUnsere Leggings im Vergleich\nScrunch Pro\nTrust\nCore\nAura Nylon\nSoftline\nAppearance\nPulse\nRevolution Pro\nToned V-Shape\nAlive Batik\nScrunch\nBooty Konturlinien\nTaschen\nAtmungsaktiv\nHohe Kompression\nKühles Tragegefühl\n\nVon Sportlern für Sportler entwickelt\n\nCommunity First\n\nFashionable Sportswear\n\nGehe zu Element 1\nGehe zu Element 2\nGehe zu Element 3\n\nBeliebte Kategorien\n",
+ "colorways": [
+  {
+   "i": 0,
+   "name": "aura blue/dots",
+   "file": "colorways/c00.png",
+   "clipY": 62
+  },
+  {
+   "i": 1,
+   "name": "true black",
+   "file": "colorways/c01.png",
+   "clipY": 62
+  },
+  {
+   "i": 2,
+   "name": "taupe/dots",
+   "file": "colorways/c02.png",
+   "clipY": 62
+  },
+  {
+   "i": 3,
+   "name": "espresso/dots",
+   "file": "colorways/c03.png",
+   "clipY": 62
+  },
+  {
+   "i": 4,
+   "name": "espresso",
+   "file": "colorways/c04.png",
+   "clipY": 62
+  },
+  {
+   "i": 5,
+   "name": "midnight blue",
+   "file": "colorways/c05.png",
+   "clipY": 62
+  },
+  {
+   "i": 6,
+   "name": "raspberry",
+   "file": "colorways/c06.png",
+   "clipY": 62
+  },
+  {
+   "i": 7,
+   "name": "jelly mint",
+   "file": "colorways/c07.png",
+   "clipY": 62
+  },
+  {
+   "i": 8,
+   "name": "coal grey",
+   "file": "colorways/c08.png",
+   "clipY": 62
+  },
+  {
+   "i": 9,
+   "name": "soft lilac",
+   "file": "colorways/c09.png",
+   "clipY": 62
+  },
+  {
+   "i": 10,
+   "name": "soft blue",
+   "file": "colorways/c10.png",
+   "clipY": 62
+  },
+  {
+   "i": 11,
+   "name": "eggplant",
+   "file": "colorways/c11.png",
+   "clipY": 62
+  },
+  {
+   "i": 12,
+   "name": "summer peach",
+   "file": "colorways/c12.png",
+   "clipY": 62
+  },
+  {
+   "i": 13,
+   "name": "dark plum",
+   "file": "colorways/c13.png",
+   "clipY": 62
+  },
+  {
+   "i": 14,
+   "name": "heather grey",
+   "file": "colorways/c14.png",
+   "clipY": 62
+  },
+  {
+   "i": 15,
+   "name": "warm stone",
+   "file": "colorways/c15.png",
+   "clipY": 62
+  },
+  {
+   "i": 16,
+   "name": "moonstone",
+   "file": "colorways/c16.png",
+   "clipY": 62
+  },
+  {
+   "i": 17,
+   "name": "aqua blue",
+   "file": "colorways/c17.png",
+   "clipY": 62
+  },
+  {
+   "i": 18,
+   "name": "dark greige",
+   "file": "colorways/c18.png",
+   "clipY": 62
+  },
+  {
+   "i": 19,
+   "name": "royal green",
+   "file": "colorways/c19.png",
+   "clipY": 62
+  },
+  {
+   "i": 20,
+   "name": "royal blue",
+   "file": "colorways/c20.png",
+   "clipY": 62
+  },
+  {
+   "i": 21,
+   "name": "dark blue",
+   "file": "colorways/c21.png",
+   "clipY": 62
+  },
+  {
+   "i": 22,
+   "name": "chocolate",
+   "file": "colorways/c22.png",
+   "clipY": 62
+  }
+ ]
+}

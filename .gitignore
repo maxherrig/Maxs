@@ -1,0 +1,3 @@
+tools/node_modules
+out/*.parts/
+out/_v_*.mp4

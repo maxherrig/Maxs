@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>OACE Reel</title>
+<style>
+@font-face{font-family:OH;font-weight:300;src:url(../assets/HelveticaLTPro-Light.woff2) format("woff2")}
+@font-face{font-family:OH;font-weight:400;src:url(../assets/HelveticaLTPro-Roman.woff2) format("woff2")}
+@font-face{font-family:OH;font-weight:700;src:url(../assets/HelveticaLTPro-Bold.woff2) format("woff2")}
+html,body{margin:0;padding:0;background:#000;overflow:hidden}
+#stage{position:relative;overflow:hidden;background:#fff;font-family:OH,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+.abs{position:absolute;left:0;top:0;transform-origin:50% 50%}
+.layer{position:absolute;inset:0;overflow:hidden}
+.pc{position:absolute;left:0;top:0;transform-origin:50% 50%;overflow:hidden}
+.pc>img{display:block;width:100%;height:100%}
+.word{position:absolute;white-space:nowrap;font-weight:700;letter-spacing:-0.045em;line-height:0.74;text-transform:uppercase}
+.t{position:absolute;left:0;top:0;white-space:nowrap;transform-origin:0 0}
+.b{font-weight:700;letter-spacing:-0.04em;line-height:.8}
+.l{font-weight:300;letter-spacing:.02em}
+.r{font-weight:400;letter-spacing:-0.01em}
+.ring{position:absolute;left:0;top:0;border-radius:50%;border:4px solid #000;transform-origin:50% 50%}
+#hud{position:absolute;left:0;top:0;width:100%;height:100%;pointer-events:none;mix-blend-mode:difference;color:#fff}
+</style>
+</head>
+<body>
+<div id="stage"></div>
+<script src="comp.js"></script>
+</body>
+</html>
